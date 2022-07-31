@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/rounder.xml" value="0.117" />
         <entry key="app/src/main/res/layout/fragment_detail.xml" value="0.24479166666666666" />
       </map>
     </option>
