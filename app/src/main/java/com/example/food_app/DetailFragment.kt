@@ -11,7 +11,6 @@ class DetailFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -20,11 +19,14 @@ class DetailFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_detail, container, false)
     }
 
-    fun create(view: View){
-
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
     }
+
     fun imageAdd(view: View){
 
     }
+    fun saveBtn(view: View){
 
+    }
 }

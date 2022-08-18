@@ -20,7 +20,7 @@
         tools:ignore="MissingConstraints">
 
         <ImageView
-            android:id="@+id/photo"
+            android:id="@+id/pictureAdd"
             android:layout_width="match_parent"
             android:layout_height="151dp"
             android:layout_margin="10dp"
@@ -67,10 +67,11 @@
             android:inputType="textMultiLine" />
 
         <Button
-            android:id="@+id/saveBtn"
-            android:layout_margin="20dp"
+            android:id="@+id/createBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:onClick="saveBtn"
             android:text="KAYDET" />
 
     </LinearLayout>
