@@ -20,4 +20,11 @@ class DetailFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_detail, container, false)
     }
 
+    fun create(view: View){
+
+    }
+    fun imageAdd(view: View){
+
+    }
+
 }
