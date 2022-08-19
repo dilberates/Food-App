@@ -24,7 +24,6 @@
             android:layout_width="match_parent"
             android:layout_height="151dp"
             android:layout_margin="10dp"
-            android:contentDescription="TODO"
             android:onClick="imageAdd"
             android:src="@drawable/picture"
             app:layout_constraintBottom_toBottomOf="parent"
